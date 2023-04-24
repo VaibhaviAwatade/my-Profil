@@ -1,23 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        iframe{
+             height: 500px;
+             width: 900px;
+             border: 1px solid black;
+        }
+        header{
+            background-color: rgb(red, green, blue);
+            height: 30px;
+            padding-top: 10px;
+
+        }
+        header i{
+            color: aliceblue;
+
+
+        }
+        span{
+            color: rgb(red, green, blue);
+        }
+        ul{
+            list-style: none;
+        }
+        ul li::before{
+            content:"\2022";
+            color: rgb(red, green, blue);
+            font-weight: bold;
+            display:inline-block;
+            width: 1em;
+            margin-left: 1em;
+
+
+        }
+        .head{
+            color: rgb(red, green, blue);
+            background-color: rgb(red, green, blue);
+
+        }
+        .angular{
+            color: red;
+            font-size: 1.2rem;
+
+        }
+        ul{
+            background-color: orange;
+        }
+
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Summery</title>
 </head>
 <body>
-    <h2>professional  Summery</h2>
+    <h2 style="background-color: rgb(226, 141, 141);">Career Objective</h2>
+    <p>to  Work in organization  where  i can learn and graw my  skills  and help organization growth</p>
+    <h2 style="background-color: rgb(216, 125, 125);">professional  Summery</h2>
     <ul>
-        <li>Having 1 Years of experience in developing Single page Web Application using Angular 8,HTML5,CSS3,javaScript ,TypeScript</li>
-        <li>Experience on working with version ccontrol system -GIT and GitHub</li>
-        <li>Exprience working with JIRA for user stories  and bug tracking</li>
-        <li>Strong Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
-        <li>working exposure on ID's  like VS Code and Notpad++</li>
-        <li>Good working exposure under Agile methodologies environment</li>
-        <li>Experience in using Chrome Developer Tool for debugging and Troubleshooting the code</li>
-        <li>Knowledge of NodeJ</li>
-        <li>Ability to Working With people at all levels in the program</li>
+        <li type="square">Having 1 Years of experience in developing Single page Web Application using <span class="angular">Angular 8 </span>,HTML5,CSS3,javaScript ,TypeScript</li>
+        <li type="square">Experience on working with version ccontrol system -GIT and GitHub</li>
+        <li type="square">Exprience working with JIRA for user stories  and bug tracking</li>
+        <li type="square">Strong Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
+        <li type="square">working exposure on ID's  like VS Code and Notpad++</li>
+        <li type="square">Good working exposure under Agile methodologies environment</li>
+        <li type="square">Experience in using Chrome Developer Tool for debugging and Troubleshooting the code</li>
+        <li type="square">Knowledge of NodeJ</li>
+        <li type="square">Ability to Working With people at all levels in the program</li>
     </ul>
     
 </body>
