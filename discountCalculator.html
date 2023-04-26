@@ -14,18 +14,32 @@ rel="stylesheet">
     <style>
         *{
             color: cadetblue;
-            margin: 6px;
-            padding: 6px;
+            margin: 3px;
+            padding: 3px;
             font-family: 'Itim', cursive;
             font-size: x-large;
+            border-radius: 50px;
         }
         body{
             background-color: #f2f2f2;
+        }
+        h2{
+            margin-top: 3px;
+            text-align: center;
+        }
+        button{
+            border-radius: 20px;
+            background-color: rgb(101, 233, 101);
+        }
+        fieldset{
+            height: 500px;
+            width: 600px;
         }
         
     </style>
 </head>
 <body>
+    <fieldset>
     
     <h2 style="color: cadetblue">DISCOUNT CALCULATOR</h2>
     <p> Enter the Bill amount and discount in percentage</p>
@@ -39,13 +53,13 @@ rel="stylesheet">
      <td><label>Discount Percentage</label></td> &nbsp; &nbsp; &nbsp; &nbsp;
      <td><input type="number" name="Angular" style="border-radius: 50px;"></td><br>
      <tr>
-     <td><button style="border-radius: 20px; background:burlywood">Calculate</button></td>
+     <td><button>Calculate</button></td>
      </tr>
         <tr>
         <td><p>Total Discount Amount ==</p></td>
      </tr>
         </tbody>
     </table>
-
+    </fieldset>
 </body>
 </html>
